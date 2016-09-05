@@ -10,12 +10,8 @@
     <link rel="stylesheet" href="css/fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="apple-touch-icon" href="touch-icon.png" />
     <link rel="shortcut icon" href="favicon.ico?v=1" />
-
-    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-    <!-- Font -->
-    <!-- <script type="text/javascript" src="//use.typekit.net/xsl6jut.js"></script> -->
-    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="vex/dist/css/vex.css">
+    <link rel="stylesheet" href="vex/dist/css/vex-theme-flat-attack.css">
 </head>
 <!-- Header -->
 <header class="homepage">
@@ -48,7 +44,7 @@
 
 <section id="services">
     <div class="container">
-        <h2 class="title">My services</h2>
+        <h2 class="title">My Services</h2>
         <div class="title-bar"><div class="circle"></div></div>
         <div class="row">
             <div class="col-sm-4">
@@ -70,15 +66,33 @@
     </div>
 </section>
 
+<section id="short-description">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="description">
+                    <div class="description-image visible-xs">
+                        <img class="ajs-img-small"src="img/andrews.jpg" alt="">
+                    </div>
+                    <h2 class="title">About Me</h2>
+                    <p>Passionate UI developer that's driven on bridging the gap between design and development to create robust and intuitive user interfaces for mobile and web applications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section  id="my-work">
     <div class="container">
-        <h2 class="title">Work on dribbble</h2>
+        <h2 class="title">Samples Of My Work</h2>
         <div class="title-bar"><div class="circle"></div></div>
         <div class="row">
             <div class="col-md-12">
-                <div class="wrap-dribbble-images">
-                    <ul>
-                        <li>Test</li>
+                <div class="wrap-work-images">
+                    <ul class="past-works">
+                        <li><img class="hlp-work" src="img/imac-twitter-clone.png" alt="">Twitter Clone</li>
+                        <li><a href="plove/index.html"><img src="img/puppy-love-screenshot.png" alt="">Puppy Love</a></li>
+                        <li><a href="#"><img src="img/hlp-catalog.png" alt="">2012 Catalog</a></li>
                         <li>test</li>
                     </ul>
                 </div>
@@ -90,18 +104,23 @@
     </div>
 </section>
 
-<section id="short-description">
+<section id="stats">
     <div class="container">
         <div class="row">
-            <div class="col-sm-7">
-                <div class="description">
-                    <div class="description-image visible-xs">
-                        <img class="ajs-img-small"src="img/andrews.jpg" alt="">
-                    </div>
-                    <h2 class="title">About me</h2>
-                    <p>Passionate UI developer that's driven on bridging the gap between design and development to create robust and intuitive user interfaces for mobile and web applications.</p>
-                </div>
+
+            <div class="col-xs-4">
+                <div class="ic-box-nr">3</div>
+                <span class="stats-name">Years</span>
             </div>
+            <div class="col-xs-4">
+                <div class="ic-box-nr">10</div>
+                <span class="stats-name">Projects</span>
+            </div>
+            <div class="col-xs-4">
+                <div class="ic-box-nr">5</div>
+                <span class="stats-name">Clients</span>
+            </div>
+
         </div>
     </div>
 </section>
@@ -131,27 +150,6 @@
     </div>
 </section>
 
-<section id="stats">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xs-4">
-                <div class="ic-box-nr">3</div>
-                <span class="stats-name">Years</span>
-            </div>
-            <div class="col-xs-4">
-                <div class="ic-box-nr">10</div>
-                <span class="stats-name">Projects</span>
-            </div>
-            <div class="col-xs-4">
-                <div class="ic-box-nr">5</div>
-                <span class="stats-name">Clients</span>
-            </div>
-
-        </div>
-    </div>
-</section>
-
 <footer>
     <div class="container">
         <div class="row">
@@ -167,6 +165,9 @@
     </div>
 </footer>
 
+<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="vex/dist/js/vex.combined.min.js"></script>
+<script>vex.defaultOptions.className = 'vex-theme-flat-attack';</script>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jpreloader.min.js"></script>

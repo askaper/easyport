@@ -6720,6 +6720,11 @@ header .btn-white {
     }
 }
 
+ .past-works > li {
+  text-align: center;
+  /*margin: 5px;*/
+}
+
 #my-work {
     background-color: #fff;
     padding-top: 100px;

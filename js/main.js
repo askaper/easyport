@@ -1,8 +1,15 @@
-/* Script */
+/* Typekit */
 
 try{Typekit.load();}catch(e){}
 
 $(function() {
+
+	$('.hlp-work').click(function() {
+		console.log('this should be working damnit!')
+		vex.dialog.alert({
+		unsafeMessage: '<h1>This is a test!</h1>'
+		})
+	})
 
 	$('body').jpreLoader({
 		autoClose: true,
