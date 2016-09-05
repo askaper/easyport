@@ -6725,6 +6725,15 @@ header .btn-white {
   /*margin: 5px;*/
 }
 
+.vex-url {
+  display: block;
+  margin-top: 30px;
+}
+
+.vex-images {
+  margin-bottom: 5px;
+}
+
 #my-work {
     background-color: #fff;
     padding-top: 100px;
