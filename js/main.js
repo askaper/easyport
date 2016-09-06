@@ -11,7 +11,7 @@ $(function() {
 				'<a class="vex-url" href="twitter/index.html">Live demo</a>' +
 				'<a class="vex-url" href="https://github.com/askaper/milestone3/tree/master/twitter"><i class="fa fa-github bottom-icons" aria-hidden="true"></i>  View Repo</a>'
 		})
-	})
+	});
 
 	$('.puppy-love').click(function() {
 		vex.dialog.alert({
@@ -20,7 +20,7 @@ $(function() {
 			'<a class="vex-url" href="plove/index.html">Live Demo</a>' +
 			'<a class="vex-url" href="https://github.com/askaper/milestone3/tree/master/plove"><i class="fa fa-github bottom-icons" aria-hidden="true"></i>  View Repo</a>'
 		})
-	})
+	});
 
 	$('.catalog').click(function() {
 		vex.dialog.alert({
@@ -28,7 +28,7 @@ $(function() {
 			'A redesign of Halogen Lighting&#39;s 2012 catalog where I made contributions towards design, copy, and photography using Adobe Creative Suite (InDesign, Illustrator, and Photoshop)' +
 			'<a class="vex-url" href="2012-catalog.pdf">Click Here to view Catalog  <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>'
 		})
-	})
+	});
 
 	$('.windrow').click(function() {
 		vex.dialog.alert({
