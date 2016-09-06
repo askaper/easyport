@@ -3294,6 +3294,13 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
     background-color: #e5e5e5
 }
 
+.work-thumbnails {
+  margin: 5px;
+  height: auto;
+  width: 283px;
+  max-height: 177px;
+}
+
 .dropdown-menu>li>a {
     display: block;
     padding: 3px 20px;
